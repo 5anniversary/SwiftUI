@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var startAnimation: Bool = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            // 2.
+            Button("Start Animation") {
+                withAnimation(.easeInOut(duration: 4)) {
+                    self.startAnimation.toggle()
+                }
+            }
+            
+            HStack {
+                Spacer()
+                // 3.
+                Text("🚚")
+                    .font(.custom("Arial", size: 100))
+                    // 4.
+                    .offset(x: self.startAnimation ? 0 - UIScreen.main.bounds.width + 100: 0)
+            }
+        }
     }
 }
 
@@ -19,3 +37,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

@@ -13,6 +13,8 @@
 		D105515B24E2FBAD00345C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D105515A24E2FBAD00345C37 /* Assets.xcassets */; };
 		D105515E24E2FBAD00345C37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D105515D24E2FBAD00345C37 /* Preview Assets.xcassets */; };
 		D105516124E2FBAD00345C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D105515F24E2FBAD00345C37 /* LaunchScreen.storyboard */; };
+		D1A20E3A24F634810086699A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A20E3924F634810086699A /* Badge.swift */; };
+		D1A20E3C24F6412D0086699A /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A20E3B24F6412D0086699A /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D105515D24E2FBAD00345C37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D105516024E2FBAD00345C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D105516224E2FBAD00345C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A20E3924F634810086699A /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		D1A20E3B24F6412D0086699A /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				D105515424E2FBA800345C37 /* AppDelegate.swift */,
 				D105515624E2FBA800345C37 /* SceneDelegate.swift */,
 				D105515824E2FBA800345C37 /* ContentView.swift */,
+				D1A20E3924F634810086699A /* Badge.swift */,
 				D105515A24E2FBAD00345C37 /* Assets.xcassets */,
 				D105515F24E2FBAD00345C37 /* LaunchScreen.storyboard */,
 				D105516224E2FBAD00345C37 /* Info.plist */,
 				D105515C24E2FBAD00345C37 /* Preview Content */,
+				D1A20E3B24F6412D0086699A /* HikeView.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D105515524E2FBA800345C37 /* AppDelegate.swift in Sources */,
+				D1A20E3A24F634810086699A /* Badge.swift in Sources */,
 				D105515724E2FBA800345C37 /* SceneDelegate.swift in Sources */,
+				D1A20E3C24F6412D0086699A /* HikeView.swift in Sources */,
 				D105515924E2FBA800345C37 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
